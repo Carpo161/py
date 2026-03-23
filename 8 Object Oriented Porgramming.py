@@ -42,6 +42,9 @@ print(f'Name: {my_dog.name}, Breed: {my_dog.breed}, Spots: {my_dog.spots}')
 # Class Object Attributes and Methods
 
 class Dog2():
+    # Define Class Object Attribute at class object level and not at a particular instance
+    # These are the same for any instnace of a class
+    species = 'mammal'
     
     def __init__(self,breed,name,spots): # creating an attribute that we want the user to define
         # the variable 'breed' is passed in and is set equal to the attribute .breed itself or in other words self.breed as self represents an instance of the object
